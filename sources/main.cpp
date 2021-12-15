@@ -1,6 +1,6 @@
 //Copyright 2021 Anton Pavlyukevich.
 
-//This file is part of a countdown_timer.
+//This file is part of a stopwatch.
 //
 //Stopwatch is free software: you can redistribute it and/or modify
 //it under the terms of the GNU General Public License as published by
@@ -41,6 +41,7 @@ const char	*add_zero(int num)
 	return (num < 10 ? "0" : "\0");
 }
 
+//output stopwatch
 int	main(void)
 {
 	unsigned int seconds;
