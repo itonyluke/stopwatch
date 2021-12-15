@@ -55,7 +55,7 @@ int	main(void)
 	while (true)
 	{
 		std::cout.flush() << "\r";
-		std::cout << BOLD << add_zero(hours) << hours;
+		std::cout << GREY << "> " << DEFAULT << BOLD << add_zero(hours) << hours;
 		std::cout << ":" << add_zero(minutes) << minutes;
 		std::cout << ":" << add_zero(seconds) << seconds;
 		seconds++;
@@ -69,7 +69,7 @@ int	main(void)
 					break ;
 				else
 				{
-					std::cout << add_zero(hours) << hours;
+					std::cout << GREY << "> " << DEFAULT << BOLD << add_zero(hours) << hours;
 					minutes = 0;
 					std::cout << ":" << add_zero(minutes) << minutes;
 					seconds = 0;
@@ -80,7 +80,7 @@ int	main(void)
 			else
 			{
 				std::cout << "\r";
-				std::cout << add_zero(hours) << hours;
+				std::cout << GREY << "> " << DEFAULT << BOLD << add_zero(hours) << hours;
 				minutes++;
 				std::cout << ":" << add_zero(minutes) << minutes;
 				seconds = 0;
