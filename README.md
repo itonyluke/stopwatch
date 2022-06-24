@@ -1,4 +1,4 @@
-### command-line stopwatch
+### this program is a command-line stopwatch
 
 #### install:
 `git clone https://github.com/itonyluke/stopwatch.git stopwatch`
