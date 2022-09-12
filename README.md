@@ -1,7 +1,9 @@
 ### this program is a command-line stopwatch
 
 #### install:
-`git clone https://github.com/itonyluke/stopwatch.git stopwatch`
+```
+git clone https://github.com/itonyluke/stopwatch.git stopwatch
+```
 
 #### build:
 `make`
